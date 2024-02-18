@@ -27,7 +27,7 @@ function Products(){
           <ul className='other-buttons'>
             <Link to= '/login'><button className='a'>Sign in</button></Link>
             <Link to='/signup'><button className='b'>Sign Up</button></Link>
-            <Link to= '/'><img src={cart} alt="" className='cart' /></Link>
+            <Link to= '/chart'><img src={cart} alt="" className='cart' /></Link>
           </ul>
         </nav>
     </header>
