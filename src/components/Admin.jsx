@@ -13,7 +13,7 @@ import product8 from './products/product8.jpg';
 import product9 from './products/product9.jpg';
 import axios from "axios";
 
-function Products() {
+function Admin() {
     const [cartItems, setCartItems] = useState([]);
 
     const addToCart = (product) => {
@@ -139,4 +139,4 @@ function Products() {
     );
 }
 
-export default Products;
+export default Admin;
