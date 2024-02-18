@@ -23,7 +23,7 @@ function LoginForm() {
                 alert("Login Successful");
                 console.log(response.data.message);
             } else {
-                alert("Login failed: " + response.data.message);
+                alert("Login : " + response.data.message);
             }
         } catch (error) {
             setErrorMessage("Login failed: " + error.response.data);
