@@ -47,9 +47,11 @@ function Products() {
           </nav>
       </header>
 
+
       <main className="other">
           <div>
               <h1>Featured Products</h1>
+
           </div>
           <div className="product-container">
               <div className="product">
@@ -58,6 +60,7 @@ function Products() {
                   <p>40$</p>
                   <button onClick={() => addToCart({ id: 1, name: "Kylie Skin Detox Face Mask", price: 40 })}>Add to Cart</button>
               </div>
+
 
               <div className="product">
                   <img src={product2} alt="" />
@@ -116,6 +119,7 @@ function Products() {
               </div>
           </div>
       </main>
+
   </div>
 );
 }
