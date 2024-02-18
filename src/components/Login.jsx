@@ -47,7 +47,7 @@ function LoginForm() {
       </header>
     <div className='bg'>
         <main className='main'>
-            <div className="container">
+            <div className="container1">
                 <form className="signin-form" onSubmit={handleLogin}>
                     <h1 className='welcome'>Welcome back</h1>
                     <p className='wback'>Welcome back! Please enter your details</p>

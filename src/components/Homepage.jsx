@@ -14,11 +14,12 @@ function Homepage() {
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/">About</Link></li>
           <li><Link to="/">Contact</Link></li>
+          <li><Link to= '/admin'>Admin</Link></li>
           </ul>
           <ul className='other-buttons'>
             <Link to= '/login'><button className='a'>Sign in</button></Link>
             <Link to='/signup'><button className='b'>Sign Up</button></Link>
-            <Link to= '/chart'><img src={cart} alt="" className='cart' /></Link>
+            <Link to= '/admin'><img src={cart} alt="" className='cart' /></Link>
           </ul>
         </nav>
       </header>
