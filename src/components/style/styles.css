@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
+
+
+  
+  .welcome{
+    margin-bottom: 0;
+  }
+
+  .wback{
+    margin-bottom: 2rem;
+  }
+  .bg{
+    background-color: #f3e7e7;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+  }
+
+  h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: -5rem;
+  }
+
+  p, label, button{
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  input{
+    width: 85%;
+    padding: 0.75em;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 1em;
+    text-align: left;
+  }
+  
+  
+  .main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    border: white solid 1px;
+    background-color: #fff;
+  }
+  
+  .container{
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  
+  nav{
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul>button{
+    width: max-content;
+    height: max-content;
+    padding: 0.5rem 1rem;
+  }
+
+
+  button{
+    padding: 0.5em;
+    background-color: #E78895;
+    width: 90%;
+    padding: 0.75em;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+  }
+
+  img{
+    padding: 1em;
+    width: 600px;
+    border-radius: 10px;
+  }
+
+  .google { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; 
+    padding: 0rem 3.25em 0 3.25rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+.logo-google {
+    width: 50px; 
+    height: 40px; 
+    margin-right: 10px;
+    padding: 0.5em;
+    
+}
+
+.signup{
+    font-size: small;
+}
+
+u{
+    cursor: pointer;
+    color: black;
+}
