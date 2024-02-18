@@ -43,6 +43,18 @@ function SignupForm() {
     }
 
     return (
+        <>
+    <header>
+        <nav>
+          <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/products">Products</Link></li>
+          <li><Link to="/">About</Link></li>
+          <li><Link to="/">Contact</Link></li>
+          </ul>
+        </nav>
+    </header>
+
     <div className="bg">
         <main className='main'>
             <div className="left">
@@ -121,6 +133,7 @@ function SignupForm() {
             </div>
         </main>
     </div>
+</>
     );
 }
 

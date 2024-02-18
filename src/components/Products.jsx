@@ -37,68 +37,69 @@ function Products(){
       <div className="product-container">
           <div className="product">
             <img src={product1} alt="" className="pic" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <p className="description">Kylie Skin Detox Face Mask</p>
+            <p>40$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product2} alt="" />
+            <p className="description">Skin Whitening Cream </p>
+            <p>22,50$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product3} alt="" />
+            <p className="description">Alya Skin Products</p>
+            <p>42$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product4} alt="" />
+            <p className="description">Facial lotion </p>
+            <p>15$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product5} alt="" />
+            <p className="description">Face Blush</p>
+            <p>27$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product6} alt="" />
+            <p className="description">Lip Glow Oil</p>
+            <p>32$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product7} alt="" />
+            <p className="description">Lip Gloss Oil Kit</p>
+            <p>90$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product8} alt="" />
+            <p className="description">Set of make-up Brushes</p>
+            <p>21,99$</p>
+            <button>Add to Chart</button>
           </div>
 
           <div className="product">
-            <img src={product1} alt="" />
-            <p>Description</p>
-            <p>Price</p>
-            <button>Order now</button>
+            <img src={product9} alt="" />
+            <p>Make-up Remover</p>
+            <p>16,17$</p>
+            <button>Add to Chart</button>
           </div>
       </div>
     </main>
+
   </div>
     );
 }
