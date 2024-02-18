@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import './style/styles.css';
 import sideImage from './images/side.jpg'
 import logo from './images/google.jpg'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function LoginForm() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const navigate = useNavigate();
 
     async function handleLogin(event) {
         event.preventDefault();
@@ -22,8 +23,10 @@ function LoginForm() {
             if (response.data.success) {
                 alert("Login Successful");
                 console.log(response.data.message);
+                navigate('/')
             } else {
                 alert("Login : " + response.data.message);
+                navigate('/')
             }
         } catch (error) {
             setErrorMessage("Login failed: " + error.response.data);
