@@ -13,8 +13,12 @@ header{
     padding: 1rem;
 }
 
+.cart{
+    width: 2rem;
+}
+
 .other-buttons{
-    margin-left: 45rem;
+    margin-left: 40rem;
     padding: 0;
   }
 

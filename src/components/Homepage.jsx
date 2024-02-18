@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/homepage.css';
 import { Link } from 'react-router-dom';
+import cart from './icons/cart.png'
 
 function Homepage() {
 
@@ -17,6 +18,7 @@ function Homepage() {
           <ul className='other-buttons'>
             <Link to= '/login'><button className='a'>Sign in</button></Link>
             <Link to='/signup'><button className='b'>Sign Up</button></Link>
+            <Link to= '/'><img src={cart} alt="" className='cart' /></Link>
           </ul>
         </nav>
       </header>

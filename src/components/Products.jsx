@@ -10,6 +10,7 @@ import product7 from './products/product7.jpg'
 import product8 from './products/product8.jpg'
 import product9 from './products/product9.jpg'
 import { Link } from "react-router-dom";
+import cart from './icons/cart.png'
 
 function Products(){
     return(
@@ -26,6 +27,7 @@ function Products(){
           <ul className='other-buttons'>
             <Link to= '/login'><button className='a'>Sign in</button></Link>
             <Link to='/signup'><button className='b'>Sign Up</button></Link>
+            <Link to= '/'><img src={cart} alt="" className='cart' /></Link>
           </ul>
         </nav>
     </header>
@@ -93,7 +95,7 @@ function Products(){
 
           <div className="product">
             <img src={product9} alt="" />
-            <p>Make-up Remover</p>
+            <p className="description">Make-up Remover</p>
             <p>16,17$</p>
             <button>Add to Chart</button>
           </div>
